@@ -10,6 +10,22 @@ body {
     
 }
 
+header{
+    position:relative;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5 ),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagen/Harmless-Harvest-Thailand-Joey-L-Photographer-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;z-index: 1;
+    position: relative
+
+
+}
+
 
 header .logo {
     margin: 0%;
@@ -43,7 +59,15 @@ header a:hover {
 	width: 200%;
 	max-width: 1200px;
 	margin: auto;
-	padding: 40px 0;
+	padding: 40px 0; 
+    
+    /* APLICANDO GRID AL CONTENDEDOR*/
+    display: grid;
+    grid-template-columns: 4fr;
+    gap: 20px;
+
+
+
 
 }
 
@@ -79,6 +103,7 @@ header a:hover {
     transition: 1s;
     opacity:0;
 
+
 }
 
 
@@ -112,6 +137,7 @@ header a:hover {
     }
     header nav {
         flex-direction: row;
-        
+        padding-bottom: 0;
+        padding-right: 20px;
     }
 }
