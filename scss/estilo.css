@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=estilo.css.map */
+/* Anidacion en el header*/
+header {
+  background-color: aqua;
+}
+header nav {
+  text-align: right;
+}
+header nav ul {
+  color: black;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: blue;
+  left: 10px;
+}
+
+/* Maps*/
+.facebook {
+  color: 0;
+}
+
+.instagram {
+  color: 0;
+}
+
+.twitter {
+  color: 0;
+}
+
+/*aplicando mixin a font size*/
+/* mixin en padding*//*# sourceMappingURL=estilo.css.map */

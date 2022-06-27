@@ -1,0 +1,11 @@
+/*aplicando mixin a font size*/
+
+@mixin font-size($value) {
+    @include rfs($value);
+  }
+
+  /* mixin en padding*/
+
+  @mixin padding($value) {
+    @include rfs($value, padding);
+  }
